@@ -4,3 +4,9 @@ def print_args():
     variables = sys.argv[1:]
     print("Script name: " + script_name)
     print("Variables: " + str(variables))
+
+def helloWorld():
+	print("Hello World")
+
+
+helloWorld()
